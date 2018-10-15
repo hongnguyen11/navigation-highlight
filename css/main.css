@@ -1,5 +1,6 @@
 html {
   font: normal 100%/1.5 Georgia,serif;
+  line-height: 1.5;
 }
 
 body {
@@ -8,7 +9,7 @@ body {
 
 header {
   background-color: #ffe500;
-  padding: 1em 0;
+  padding: 0 .75em;
 }
 
 h1 {
@@ -29,24 +30,56 @@ h1 {
 
 .nav li {
   display: inline-block;
-  text-decoration: none;
 }
 
 .nav a {
   color: #fff;
   display: inline-block;
-  padding: .2em .5em;
+  padding: .2em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
+  margin: .3em;
 }
 
 .nav a:hover {
   background-color: #b20953;
 }
 
+.nav a::after {
+  background-color: #b2a212;
+}
+
+.nav a::selection {
+  background-color: #b20953;
+}
+
+.nav a:active {
+  background-color: #b2a212;
+}
+
+.nav a::before {
+  background-color: #b2a212;
+}
+
+h2 {
+  font-family: Sigmar One;
+  font-size: 1.875rem;
+  color: #cc1465;
+  margin: .5em;
+}
+
+img {
+  display: inline;
+}
+
 footer {
   background-color: #ffe500;
   padding: 0.2em;
   text-align: center;
+}
+
+article {
+  margin: .3em;
+  padding: .2em .5em .3em;
 }

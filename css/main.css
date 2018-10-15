@@ -1,6 +1,7 @@
 html {
-  font: normal 100%/1.5 Georgia,serif;
+  font: normal 100%/1.5 Georgia, serif;
   line-height: 1.5;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,7 +16,7 @@ header {
 h1 {
   margin: 0;
   text-align: center;
-  font-family: Sigmar One;
+  font-family: "Sigmar One";
   color: #b20953;
   font-size: 3rem;
 }
@@ -63,7 +64,7 @@ h1 {
 }
 
 h2 {
-  font-family: Sigmar One;
+  font-family: "Sigmar One";
   font-size: 1.875rem;
   color: #cc1465;
   margin: .5em;
@@ -83,4 +84,5 @@ footer {
 article {
   margin: .3em;
   padding: .2em .5em .3em;
+  color: #2f2d13;
 }

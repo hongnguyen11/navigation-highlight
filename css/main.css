@@ -70,7 +70,8 @@ h2 {
 }
 
 img {
-  display: inline;
+  display: block;
+  width: 100%;
 }
 
 footer {
